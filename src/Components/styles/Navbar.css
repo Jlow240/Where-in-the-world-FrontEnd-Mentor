@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    position: sticky;
+    top: 0;
+    background-color: var(--Dark-Blue);
+    transition: background 300ms ease;
+}
+
+#light .navbar {
+    background-color: var(--White);
+}
+
+#dark .navbar {
+    background-color: var(--Dark-Blue);
+}
+
+.navbar__title {
+    font-size: 16px;
+}
+.navbar__btn {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar__textTheme {
+    margin: 0;
+    font-weight: normal;
+}

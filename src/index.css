@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --Dark-Blue: hsl(209, 23%, 22%);
+    --Very-dark-blue: hsl(207, 26%, 17%);
+    --Dark-gray: hsl(0, 0%, 52%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+    --font: "Nunito Sans", sans-serif;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
